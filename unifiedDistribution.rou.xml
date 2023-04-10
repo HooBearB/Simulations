@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-07 09:39:09 by Eclipse SUMO netedit Version 1.15.0-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="sedan" guiShape="passenger/sedan" personCapacity="4"/>
+    <vType id="hatch" guiShape="passenger/hatchback" personCapacity="2"/>
+    <vType id="wagon" guiShape="passenger/wagon" personCapacity="5"/>
+    <vType id="van" guiShape="passenger/van" personCapacity="7"/>
+    <vType id="taxi" guiShape="taxi" personCapacity="3"/>
+    <vType id="motorbike" guiShape="motorcycle" personCapacity="1"/>
+    <vType id="bus" guiShape="bus" personCapacity="60"/>
+
+    <!-- All sedan dists -->
+    <flow id="N-E-sedan" type="sedan" begin="0.00" from="+N" to="-E" end="100.00" number="100"/>
+    <flow id="N-S-sedan" type="sedan" begin="0.00" from="+N" to="-S" end="100.00" number="100"/>
+    <flow id="N-W-sedan" type="sedan" begin="0.00" from="+N" to="-W" end="100.00" number="100"/>
+    <flow id="E-N-sedan" type="sedan" begin="0.00" from="+E" to="-N" end="100.00" number="100"/>
+    <flow id="E-S-sedan" type="sedan" begin="0.00" from="+E" to="-S" end="100.00" number="100"/>
+    <flow id="E-W-sedan" type="sedan" begin="0.00" from="+E" to="-W" end="100.00" number="100"/>
+    <flow id="S-N-sedan" type="sedan" begin="0.00" from="+S" to="-N" end="100.00" number="100"/>
+    <flow id="S-E-sedan" type="sedan" begin="0.00" from="+S" to="-E" end="100.00" number="100"/>
+    <flow id="S-W-sedan" type="sedan" begin="0.00" from="+S" to="-W" end="100.00" number="100"/>
+    <flow id="W-N-sedan" type="sedan" begin="0.00" from="+W" to="-N" end="100.00" number="100"/>
+    <flow id="W-E-sedan" type="sedan" begin="0.00" from="+W" to="-E" end="100.00" number="100"/>
+    <flow id="W-S-sedan" type="sedan" begin="0.00" from="+W" to="-S" end="100.00" number="100"/>
+</routes>

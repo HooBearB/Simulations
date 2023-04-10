@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-09 17:01:39 by Eclipse SUMO GUI Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Z:\Users\708891\Desktop\AP research\Simulations\divergingDiamond.net.xml"/>
+        <route-files value="Z:\Users\708891\Desktop\AP research\Simulations\unifiedDistribution.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Z:\Users\708891\Desktop\AP research\Simulations\output\divergingDiamond\divergingDiamondTripinfo3.xml"/>
+        <collision-output value="Z:\Users\708891\Desktop\AP research\Simulations\output\divergingDiamond\divergingDiamondCollision3.xml"/>
+        <statistic-output value="Z:\Users\708891\Desktop\AP research\Simulations\output\divergingDiamond\divergingDiamondNetworkStats3.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="1200" inserted="1200" running="0" waiting="0"/>
+    <teleports total="8" jam="0" yield="8" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <vehicleTripStatistics count="1200" routeLength="391.14" speed="5.33" duration="151.99" waitingTime="98.46" timeLoss="123.16" departDelay="482.12" departDelayWaiting="-1.00" totalTravelTime="182387.00" totalDepartDelay="578547.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

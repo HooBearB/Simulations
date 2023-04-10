@@ -1,0 +1,7 @@
+<configuration>
+    <net-file value="Z:\Users\708891\Desktop\AP research\Simulations\cloverleaf.net.xml"/>
+    <route-files value="Z:\Users\708891\Desktop\AP research\Simulations\unifiedDistribution.rou.xml"/>
+    <collision-output value="Z:\Users\708891\Desktop\AP research\Simulations\output\cloverleaf\cloverleafCollision1.xml"/>
+    <tripinfo-output value="Z:\Users\708891\Desktop\AP research\Simulations\output\cloverleaf\cloverleafTripinfo1.xml"/>
+    <statistic-output value="Z:\Users\708891\Desktop\AP research\Simulations\output\cloverleaf\cloverleafNetworkStats1.xml"/>
+</configuration>
