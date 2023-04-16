@@ -26,6 +26,7 @@ def convertToCSV(table, output):
     writer.writerows(table)
 
 
+
 root = os.path.dirname(__file__)
 name = str(input("What intersection data would you like to open? \nFormat with no spaces in camelcase.\n"))
 x = 1
@@ -34,4 +35,3 @@ while x <= 5:
     data = pullAllData(file)
     convertToCSV(data, root + "/output/csvData/" + name + "/" + name + "Tripinfo" + str(x) + ".csv")
     x = x + 1
-
