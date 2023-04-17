@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-04-07 11:48:23 by Eclipse SUMO netedit Version 1.15.0
+<!-- generated on 2023-04-17 00:25:13 by Eclipse SUMO netedit Version 1.15.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="Z:\Users\708891\Desktop\AP research\Simulations\Template.net.xml"/>
+        <sumo-net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\template.net.xml"/>
     </input>
 
     <output>
-        <output-file value="Z:\Users\708891\Desktop\AP research\Simulations\template.net.xml"/>
+        <output-file value="Z:\Users\708891\Desktop\APResearch\Simulations\template.net.xml"/>
     </output>
 
     <processing>
@@ -29,6 +29,10 @@
     <pedestrian>
         <walkingareas value="0"/>
     </pedestrian>
+
+    <netedit>
+        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
+    </netedit>
 
 </configuration>
 -->
@@ -86,6 +90,5 @@
     <junction id="J5" type="dead_end" x="0.00" y="200.00" incLanes="-N_0 -N_1 -N_2" intLanes="" shape="0.00,200.00 9.60,200.00 0.00,200.00"/>
     <junction id="J6" type="dead_end" x="0.00" y="-100.00" incLanes="+S_0 +S_1 +S_2" intLanes="" shape="0.00,-100.00 9.60,-100.00 0.00,-100.00"/>
     <junction id="J7" type="dead_end" x="0.00" y="-200.00" incLanes="-S_0 -S_1 -S_2" intLanes="" shape="0.00,-200.00 -9.60,-200.00 0.00,-200.00"/>
-
 
 </net>
