@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-04-09 16:39:54 by Eclipse SUMO netedit Version 1.15.0
+<!-- generated on 2023-04-17 16:03:44 by Eclipse SUMO netedit Version 1.15.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="Z:\Users\708891\Desktop\AP research\Simulations\overpass.net.xml"/>
+        <sumo-net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\overpass.net.xml"/>
     </input>
 
     <output>
-        <output-file value="Z:\Users\708891\Desktop\AP research\Simulations\overpass.net.xml"/>
+        <output-file value="Z:\Users\708891\Desktop\APResearch\Simulations\overpass.net.xml"/>
     </output>
 
     <processing>
@@ -135,7 +135,8 @@
     </edge>
 
     <tlLogic id="J1" type="static" programID="0" offset="0">
-        <phase duration="42" state="ggGGGGGG"/>
+        <phase duration="1"  state="ggGGGGGG"/>
+        <phase duration="1"  state="GGgGGGGG"/>
     </tlLogic>
     <tlLogic id="J10" type="static" programID="0" offset="0">
         <phase duration="22" state="GGGGGGgrrr"/>
@@ -150,7 +151,8 @@
         <phase duration="3"  state="grrgyyrrrg"/>
     </tlLogic>
     <tlLogic id="J3" type="static" programID="0" offset="0">
-        <phase duration="42" state="GGGGggGG"/>
+        <phase duration="1"  state="GGGGggGG"/>
+        <phase duration="1"  state="GGGGGGgG"/>
     </tlLogic>
 
     <junction id="J0" type="dead_end" x="-200.00" y="0.00" incLanes="-W_0 -W_1 -W_2" intLanes="" shape="-200.00,0.00 -200.00,9.60 -200.00,0.00"/>

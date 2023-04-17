@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-04-17 07:30:21 by Eclipse SUMO netedit Version 1.15.0
+<!-- generated on 2023-04-17 14:52:34 by Eclipse SUMO netedit Version 1.15.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\template.net.xml"/>
+        <sumo-net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\B2.net.xml"/>
     </input>
 
     <output>
@@ -187,10 +187,12 @@
         <phase duration="3"  state="GGyGrr"/>
     </tlLogic>
     <tlLogic id="J4" type="static" programID="0" offset="0">
-        <phase duration="42" state="GGggGG"/>
+        <phase duration="1"  state="GGggGG"/>
+        <phase duration="1"  state="GGGGgG"/>
     </tlLogic>
     <tlLogic id="J6" type="static" programID="0" offset="0">
-        <phase duration="42" state="GGGGgg"/>
+        <phase duration="1"  state="GGGGgg"/>
+        <phase duration="1"  state="gGGGGG"/>
     </tlLogic>
     <tlLogic id="J8" type="static" programID="0" offset="0">
         <phase duration="33" state="GGgrGG"/>
