@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-18 12:20:49 by Eclipse SUMO GUI Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\michiganLeft.net.xml"/>
+        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\michiganLeft\michiganLeftTripinfo3.xml"/>
+        <collision-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\michiganLeft\michiganLeftCollision3.xml"/>
+        <statistic-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\michiganLeft\michiganLeftNetworkStats3.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+</collisions>

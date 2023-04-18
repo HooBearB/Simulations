@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-18 12:24:54 by Eclipse SUMO GUI Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\stack.net.xml"/>
+        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\stack\stackTripinfo3.xml"/>
+        <collision-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\stack\stackCollision3.xml"/>
+        <statistic-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\stack\stackNetworkStats3.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="45.00" type="collision" lane="-S_1" pos="5.60" collider="E-S-sedan.2" victim="W-S-sedan.2" colliderType="sedan" victimType="sedan" colliderSpeed="9.53" victimSpeed="10.64"/>
+    <collision time="57.00" type="collision" lane="-S_1" pos="4.89" collider="E-S-sedan.3" victim="W-S-sedan.3" colliderType="sedan" victimType="sedan" colliderSpeed="6.28" victimSpeed="6.96"/>
+    <collision time="119.00" type="collision" lane="-S_1" pos="3.91" collider="W-S-sedan.10" victim="E-S-sedan.10" colliderType="sedan" victimType="sedan" colliderSpeed="4.02" victimSpeed="7.63"/>
+    <collision time="125.00" type="collision" lane="-E_1" pos="1.33" collider="N-E-sedan.11" victim="S-E-sedan.11" colliderType="sedan" victimType="sedan" colliderSpeed="12.01" victimSpeed="11.18"/>
+    <collision time="137.00" type="collision" lane="-N_1" pos="1.23" collider="E-N-sedan.13" victim="W-N-sedan.12" colliderType="sedan" victimType="sedan" colliderSpeed="13.42" victimSpeed="9.57"/>
+    <collision time="139.00" type="collision" lane="E6_1" pos="1.98" collider="N-E-sedan.13" victim="N-E-sedan.12" colliderType="sedan" victimType="sedan" colliderSpeed="15.18" victimSpeed="7.17"/>
+    <collision time="141.00" type="collision" lane="-E_1" pos="5.00" collider="N-E-sedan.12" victim="S-E-sedan.13" colliderType="sedan" victimType="sedan" colliderSpeed="9.35" victimSpeed="7.97"/>
+    <collision time="169.00" type="collision" lane="-N_1" pos="5.50" collider="E-N-sedan.16" victim="S-N-sedan.16" colliderType="sedan" victimType="sedan" colliderSpeed="8.68" victimSpeed="14.00"/>
+    <collision time="189.00" type="collision" lane="-E_1" pos="2.41" collider="S-E-sedan.18" victim="N-E-sedan.18" colliderType="sedan" victimType="sedan" colliderSpeed="2.52" victimSpeed="9.65"/>
+    <collision time="226.00" type="collision" lane="-W_1" pos="3.47" collider="E-W-sedan.22" victim="N-W-sedan.22" colliderType="sedan" victimType="sedan" colliderSpeed="14.48" victimSpeed="4.08"/>
+    <collision time="229.00" type="collision" lane="-S_1" pos="1.42" collider="W-S-sedan.22" victim="E-S-sedan.22" colliderType="sedan" victimType="sedan" colliderSpeed="1.52" victimSpeed="10.06"/>
+    <collision time="237.00" type="collision" lane="-S_1" pos="4.31" collider="E-S-sedan.23" victim="W-S-sedan.23" colliderType="sedan" victimType="sedan" colliderSpeed="9.72" victimSpeed="9.60"/>
+    <collision time="259.00" type="collision" lane="-E_1" pos="3.61" collider="N-E-sedan.26" victim="S-E-sedan.26" colliderType="sedan" victimType="sedan" colliderSpeed="10.86" victimSpeed="8.40"/>
+    <collision time="300.00" type="collision" lane="-S_1" pos="1.28" collider="W-S-sedan.30" victim="N-S-sedan.30" colliderType="sedan" victimType="sedan" colliderSpeed="2.91" victimSpeed="10.94"/>
+    <collision time="313.00" type="collision" lane="-E_1" pos="0.41" collider="S-E-sedan.32" victim="N-E-sedan.32" colliderType="sedan" victimType="sedan" colliderSpeed="15.30" victimSpeed="10.89"/>
+    <collision time="315.00" type="collision" lane="-S_1" pos="1.23" collider="W-S-sedan.32" victim="E-S-sedan.32" colliderType="sedan" victimType="sedan" colliderSpeed="13.65" victimSpeed="12.61"/>
+    <collision time="317.00" type="collision" lane="-W_1" pos="3.36" collider="S-W-sedan.31" victim="N-W-sedan.32" colliderType="sedan" victimType="sedan" colliderSpeed="9.91" victimSpeed="11.25"/>
+    <collision time="333.00" type="collision" lane="-E_1" pos="4.75" collider="N-E-sedan.34" victim="S-E-sedan.34" colliderType="sedan" victimType="sedan" colliderSpeed="9.61" victimSpeed="7.65"/>
+    <collision time="361.00" type="collision" lane="-W_1" pos="2.27" collider="N-W-sedan.37" victim="S-W-sedan.36" colliderType="sedan" victimType="sedan" colliderSpeed="11.58" victimSpeed="10.07"/>
+    <collision time="367.00" type="collision" lane="-E_1" pos="5.15" collider="S-E-sedan.38" victim="N-E-sedan.38" colliderType="sedan" victimType="sedan" colliderSpeed="12.64" victimSpeed="11.84"/>
+    <collision time="381.00" type="collision" lane="-S_1" pos="1.30" collider="W-S-sedan.39" victim="E-S-sedan.39" colliderType="sedan" victimType="sedan" colliderSpeed="12.61" victimSpeed="10.04"/>
+    <collision time="387.00" type="collision" lane="-E_1" pos="5.80" collider="N-E-sedan.40" victim="S-E-sedan.40" colliderType="sedan" victimType="sedan" colliderSpeed="9.07" victimSpeed="10.00"/>
+    <collision time="411.00" type="collision" lane="-S_1" pos="5.47" collider="E-S-sedan.42" victim="W-S-sedan.42" colliderType="sedan" victimType="sedan" colliderSpeed="7.33" victimSpeed="5.59"/>
+    <collision time="415.00" type="collision" lane="-E_1" pos="4.01" collider="N-E-sedan.43" victim="S-E-sedan.43" colliderType="sedan" victimType="sedan" colliderSpeed="12.20" victimSpeed="11.00"/>
+    <collision time="445.00" type="collision" lane="-S_1" pos="3.94" collider="E-S-sedan.46" victim="W-S-sedan.46" colliderType="sedan" victimType="sedan" colliderSpeed="8.81" victimSpeed="8.68"/>
+    <collision time="459.00" type="collision" lane="-E_1" pos="0.56" collider="S-E-sedan.48" victim="N-E-sedan.48" colliderType="sedan" victimType="sedan" colliderSpeed="14.83" victimSpeed="8.31"/>
+    <collision time="462.00" type="collision" lane="-S_1" pos="3.96" collider="W-S-sedan.48" victim="N-S-sedan.48" colliderType="sedan" victimType="sedan" colliderSpeed="4.31" victimSpeed="10.31"/>
+    <collision time="477.00" type="collision" lane="-W_1" pos="2.87" collider="S-W-sedan.49" victim="N-W-sedan.50" colliderType="sedan" victimType="sedan" colliderSpeed="9.93" victimSpeed="11.17"/>
+    <collision time="509.00" type="collision" lane="-N_1" pos="5.79" collider="W-N-sedan.53" victim="E-N-sedan.54" colliderType="sedan" victimType="sedan" colliderSpeed="11.20" victimSpeed="10.75"/>
+    <collision time="515.00" type="collision" lane="-E_1" pos="4.93" collider="N-E-sedan.54" victim="S-E-sedan.54" colliderType="sedan" victimType="sedan" colliderSpeed="10.68" victimSpeed="10.32"/>
+    <collision time="523.00" type="collision" lane="-E_1" pos="4.19" collider="N-E-sedan.55" victim="S-E-sedan.55" colliderType="sedan" victimType="sedan" colliderSpeed="9.73" victimSpeed="10.08"/>
+    <collision time="543.00" type="collision" lane="-N_1" pos="0.57" collider="E-N-sedan.58" victim="W-N-sedan.57" colliderType="sedan" victimType="sedan" colliderSpeed="13.74" victimSpeed="9.70"/>
+    <collision time="557.00" type="collision" lane="-E_1" pos="4.75" collider="N-E-sedan.59" victim="S-E-sedan.59" colliderType="sedan" victimType="sedan" colliderSpeed="11.03" victimSpeed="11.80"/>
+    <collision time="559.00" type="collision" lane="-W_1" pos="1.53" collider="N-W-sedan.59" victim="S-W-sedan.58" colliderType="sedan" victimType="sedan" colliderSpeed="13.17" victimSpeed="9.83"/>
+    <collision time="575.00" type="collision" lane="-W_1" pos="2.85" collider="S-W-sedan.60" victim="E-W-sedan.60" colliderType="sedan" victimType="sedan" colliderSpeed="13.13" victimSpeed="11.30"/>
+    <collision time="581.00" type="collision" lane="-S_1" pos="4.29" collider="E-S-sedan.61" victim="W-S-sedan.61" colliderType="sedan" victimType="sedan" colliderSpeed="8.73" victimSpeed="7.97"/>
+    <collision time="597.00" type="collision" lane="-S_1" pos="4.79" collider="E-S-sedan.63" victim="W-S-sedan.63" colliderType="sedan" victimType="sedan" colliderSpeed="9.15" victimSpeed="10.94"/>
+    <collision time="597.00" type="collision" lane="-W_1" pos="5.64" collider="S-W-sedan.62" victim="N-W-sedan.63" colliderType="sedan" victimType="sedan" colliderSpeed="10.18" victimSpeed="7.73"/>
+    <collision time="609.00" type="collision" lane="-S_1" pos="4.66" collider="E-S-sedan.64" victim="W-S-sedan.64" colliderType="sedan" victimType="sedan" colliderSpeed="8.86" victimSpeed="8.33"/>
+    <collision time="615.00" type="collision" lane="-S_1" pos="0.86" collider="W-S-sedan.65" victim="E-S-sedan.65" colliderType="sedan" victimType="sedan" colliderSpeed="12.63" victimSpeed="9.34"/>
+    <collision time="623.00" type="collision" lane="-N_1" pos="0.50" collider="E-N-sedan.67" victim="W-N-sedan.66" colliderType="sedan" victimType="sedan" colliderSpeed="14.63" victimSpeed="11.53"/>
+    <collision time="623.00" type="collision" lane="-E_1" pos="4.13" collider="S-E-sedan.66" victim="N-E-sedan.66" colliderType="sedan" victimType="sedan" colliderSpeed="11.35" victimSpeed="9.27"/>
+    <collision time="633.00" type="collision" lane="-S_1" pos="2.92" collider="E-S-sedan.67" victim="W-S-sedan.67" colliderType="sedan" victimType="sedan" colliderSpeed="11.92" victimSpeed="12.29"/>
+    <collision time="651.00" type="collision" lane="-S_1" pos="5.90" collider="E-S-sedan.69" victim="W-S-sedan.69" colliderType="sedan" victimType="sedan" colliderSpeed="10.56" victimSpeed="9.96"/>
+    <collision time="655.00" type="collision" lane="-E_1" pos="0.93" collider="N-E-sedan.69" victim="S-E-sedan.69" colliderType="sedan" victimType="sedan" colliderSpeed="8.69" victimSpeed="6.70"/>
+    <collision time="677.00" type="collision" lane="-W_1" pos="5.02" collider="S-W-sedan.71" victim="N-W-sedan.72" colliderType="sedan" victimType="sedan" colliderSpeed="9.55" victimSpeed="10.82"/>
+    <collision time="687.00" type="collision" lane="-W_1" pos="3.51" collider="S-W-sedan.72" victim="N-W-sedan.73" colliderType="sedan" victimType="sedan" colliderSpeed="9.24" victimSpeed="7.93"/>
+    <collision time="703.00" type="collision" lane="-W_1" pos="0.98" collider="N-W-sedan.75" victim="S-W-sedan.74" colliderType="sedan" victimType="sedan" colliderSpeed="13.63" victimSpeed="9.93"/>
+    <collision time="715.00" type="collision" lane="-S_1" pos="5.11" collider="E-S-sedan.76" victim="W-S-sedan.76" colliderType="sedan" victimType="sedan" colliderSpeed="10.24" victimSpeed="7.03"/>
+    <collision time="721.00" type="collision" lane="-E_1" pos="3.07" collider="S-E-sedan.77" victim="N-E-sedan.77" colliderType="sedan" victimType="sedan" colliderSpeed="11.97" victimSpeed="11.14"/>
+    <collision time="747.00" type="collision" lane="-E_1" pos="4.08" collider="N-E-sedan.80" victim="S-E-sedan.80" colliderType="sedan" victimType="sedan" colliderSpeed="9.03" victimSpeed="10.63"/>
+    <collision time="757.00" type="collision" lane="-E_1" pos="4.18" collider="S-E-sedan.81" victim="N-E-sedan.81" colliderType="sedan" victimType="sedan" colliderSpeed="10.68" victimSpeed="10.28"/>
+    <collision time="775.00" type="collision" lane="-E_1" pos="3.96" collider="S-E-sedan.83" victim="N-E-sedan.83" colliderType="sedan" victimType="sedan" colliderSpeed="12.09" victimSpeed="9.00"/>
+    <collision time="783.00" type="collision" lane="-S_1" pos="1.76" collider="E-S-sedan.84" victim="W-S-sedan.83" colliderType="sedan" victimType="sedan" colliderSpeed="12.27" victimSpeed="8.11"/>
+    <collision time="783.00" type="collision" lane="-W_1" pos="1.94" collider="S-W-sedan.83" victim="N-W-sedan.83" colliderType="sedan" victimType="sedan" colliderSpeed="12.13" victimSpeed="6.73"/>
+    <collision time="795.00" type="collision" lane="-E_1" pos="3.63" collider="S-E-sedan.85" victim="N-E-sedan.85" colliderType="sedan" victimType="sedan" colliderSpeed="11.67" victimSpeed="10.11"/>
+    <collision time="807.00" type="collision" lane="-S_1" pos="3.78" collider="E-S-sedan.86" victim="W-S-sedan.86" colliderType="sedan" victimType="sedan" colliderSpeed="9.86" victimSpeed="10.42"/>
+    <collision time="823.00" type="collision" lane="-S_1" pos="5.76" collider="W-S-sedan.88" victim="E-S-sedan.88" colliderType="sedan" victimType="sedan" colliderSpeed="11.95" victimSpeed="10.80"/>
+    <collision time="841.00" type="collision" lane="-N_1" pos="2.21" collider="E-N-sedan.91" victim="W-N-sedan.90" colliderType="sedan" victimType="sedan" colliderSpeed="11.26" victimSpeed="8.75"/>
+    <collision time="841.00" type="collision" lane="-E_1" pos="4.17" collider="N-E-sedan.90" victim="S-E-sedan.90" colliderType="sedan" victimType="sedan" colliderSpeed="8.55" victimSpeed="11.23"/>
+    <collision time="851.00" type="collision" lane="-N_1" pos="4.35" collider="W-N-sedan.91" victim="E-N-sedan.92" colliderType="sedan" victimType="sedan" colliderSpeed="9.17" victimSpeed="7.02"/>
+    <collision time="858.00" type="collision" lane="-W_1" pos="1.22" collider="N-W-sedan.92" victim="E-W-sedan.91" colliderType="sedan" victimType="sedan" colliderSpeed="4.01" victimSpeed="8.01"/>
+    <collision time="861.00" type="collision" lane="-N_1" pos="3.13" collider="W-N-sedan.92" victim="E-N-sedan.93" colliderType="sedan" victimType="sedan" colliderSpeed="10.30" victimSpeed="6.87"/>
+    <collision time="877.00" type="collision" lane="-W_1" pos="3.64" collider="N-W-sedan.94" victim="E-W-sedan.94" colliderType="sedan" victimType="sedan" colliderSpeed="10.96" victimSpeed="13.66"/>
+    <collision time="919.00" type="collision" lane="-E_1" pos="3.43" collider="S-E-sedan.99" victim="W-E-sedan.98" colliderType="sedan" victimType="sedan" colliderSpeed="11.31" victimSpeed="12.26"/>
+</collisions>

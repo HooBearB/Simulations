@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-18 12:35:35 by Eclipse SUMO GUI Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\threeLevelDiamond.net.xml"/>
+        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\threeLevelDiamond\threeLevelDiamondTripinfo3.xml"/>
+        <collision-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\threeLevelDiamond\threeLevelDiamondCollision3.xml"/>
+        <statistic-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\threeLevelDiamond\threeLevelDiamondNetworkStats3.xml"/>
+    </output>
+
+</configuration>

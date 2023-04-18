@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-04-09 13:32:20 by Eclipse SUMO GUI Version 1.15.0
+<!-- generated on 2023-04-18 12:20:04 by Eclipse SUMO GUI Version 1.15.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="Z:\Users\708891\Desktop\AP research\Simulations\fourWaySlip.net.xml"/>
-        <route-files value="Z:\Users\708891\Desktop\AP research\Simulations\unifiedDistribution.rou.xml"/>
+        <net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\fourWaySlip.net.xml"/>
+        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
     </input>
 
     <output>
-        <tripinfo-output value="Z:\Users\708891\Desktop\AP research\Simulations\output\FourWaySlip\fourWaySlipTripinfo.xml"/>
-        <collision-output value="Z:\Users\708891\Desktop\AP research\Simulations\output\FourWaySlip\fourWaySlipCollision.xml"/>
-        <statistic-output value="Z:\Users\708891\Desktop\AP research\Simulations\output\FourWaySlip\fourWaySlipNetworkStats.xml"/>
+        <tripinfo-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\fourWaySlip\fourWaySlipTripinfo2.xml"/>
+        <collision-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\fourWaySlip\fourWaySlipCollision2.xml"/>
+        <statistic-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\fourWaySlip\fourWaySlipNetworkStats2.xml"/>
     </output>
 
 </configuration>
 -->
 
 <collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="243.00" type="collision" lane="E3_1" pos="6.12" collider="S-E-sedan.25" victim="W-E-sedan.11" colliderType="sedan" victimType="sedan" colliderSpeed="8.35" victimSpeed="10.96"/>
+    <collision time="276.00" type="collision" lane="-E8_1" pos="0.64" collider="W-S-sedan.24" victim="N-S-sedan.20" colliderType="sedan" victimType="sedan" colliderSpeed="6.20" victimSpeed="6.58"/>
+    <collision time="365.00" type="collision" lane="-E4_1" pos="4.56" collider="E-N-sedan.29" victim="S-N-sedan.24" colliderType="sedan" victimType="sedan" colliderSpeed="10.45" victimSpeed="12.92"/>
+    <collision time="573.00" type="collision" lane="-E8_1" pos="3.93" collider="W-S-sedan.47" victim="N-S-sedan.37" colliderType="sedan" victimType="sedan" colliderSpeed="11.73" victimSpeed="12.67"/>
 </collisions>

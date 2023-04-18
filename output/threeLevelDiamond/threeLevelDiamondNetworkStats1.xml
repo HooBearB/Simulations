@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-18 12:26:30 by Eclipse SUMO GUI Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\threeLevelDiamond.net.xml"/>
+        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\threeLevelDiamond\threeLevelDiamondTripinfo1.xml"/>
+        <collision-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\threeLevelDiamond\threeLevelDiamondCollision1.xml"/>
+        <statistic-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\threeLevelDiamond\threeLevelDiamondNetworkStats1.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="1200" inserted="1200" running="0" waiting="0"/>
+    <teleports total="6" jam="0" yield="6" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <vehicleTripStatistics count="1200" routeLength="414.53" speed="6.45" duration="125.80" waitingTime="66.19" timeLoss="95.34" departDelay="469.87" departDelayWaiting="-1.00" totalTravelTime="150961.00" totalDepartDelay="563838.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
