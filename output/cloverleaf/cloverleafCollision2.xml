@@ -4,14 +4,14 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\cloverleaf.net.xml"/>
-        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
+        <net-file value="Simulations\cloverleaf.net.xml"/>
+        <route-files value="Simulations\unifiedDistribution.rou.xml"/>
     </input>
 
     <output>
-        <tripinfo-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\cloverleaf\cloverleafTripinfo2.xml"/>
-        <collision-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\cloverleaf\cloverleafCollision2.xml"/>
-        <statistic-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\cloverleaf\cloverleafNetworkStats2.xml"/>
+        <tripinfo-output value="Simulations\output\cloverleaf\cloverleafTripinfo2.xml"/>
+        <collision-output value="Simulations\output\cloverleaf\cloverleafCollision2.xml"/>
+        <statistic-output value="Simulations\output\cloverleaf\cloverleafNetworkStats2.xml"/>
     </output>
 
 </configuration>

@@ -4,11 +4,11 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\cloverleaf.net.xml"/>
+        <sumo-net-file value="Simulations\cloverleaf.net.xml"/>
     </input>
 
     <output>
-        <output-file value="Z:\Users\708891\Desktop\APResearch\Simulations\cloverleaf.net.xml"/>
+        <output-file value="Simulations\cloverleaf.net.xml"/>
     </output>
 
     <processing>

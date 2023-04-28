@@ -4,11 +4,11 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\template.net.xml"/>
+        <sumo-net-file value="Simulations\template.net.xml"/>
     </input>
 
     <output>
-        <output-file value="Z:\Users\708891\Desktop\APResearch\Simulations\template.net.xml"/>
+        <output-file value="Simulations\template.net.xml"/>
     </output>
 
     <processing>
@@ -31,7 +31,7 @@
     </pedestrian>
 
     <netedit>
-        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
+        <route-files value="Simulations\unifiedDistribution.rou.xml"/>
     </netedit>
 
 </configuration>

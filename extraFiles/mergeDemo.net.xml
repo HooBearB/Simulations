@@ -4,7 +4,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <output>
-        <output-file value="Z:\Users\708891\Desktop\APResearch\Simulations\mergeDemo.net.xml"/>
+        <output-file value="Simulations\mergeDemo.net.xml"/>
     </output>
 
     <processing>
@@ -16,7 +16,7 @@
     </junctions>
 
     <netedit>
-        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\mergeDemo.rou.xml"/>
+        <route-files value="Simulations\mergeDemo.rou.xml"/>
     </netedit>
 
 </configuration>

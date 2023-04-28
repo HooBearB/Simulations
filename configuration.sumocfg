@@ -1,7 +1,7 @@
 <configuration>
-    <net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\threeLevelDiamond.net.xml"/>
-    <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
-    <collision-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\threeLevelDiamond\threeLevelDiamondCollision3.xml"/>
-    <tripinfo-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\threeLevelDiamond\threeLevelDiamondTripinfo3.xml"/>
-    <statistic-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\threeLevelDiamond\threeLevelDiamondNetworkStats3.xml"/>
+    <net-file value="Simulations\threeLevelDiamond.net.xml"/>
+    <route-files value="Simulations\unifiedDistribution.rou.xml"/>
+    <collision-output value="Simulations\output\threeLevelDiamond\threeLevelDiamondCollision3.xml"/>
+    <tripinfo-output value="Simulations\output\threeLevelDiamond\threeLevelDiamondTripinfo3.xml"/>
+    <statistic-output value="Simulations\output\threeLevelDiamond\threeLevelDiamondNetworkStats3.xml"/>
 </configuration>

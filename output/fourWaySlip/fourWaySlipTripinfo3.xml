@@ -4,14 +4,14 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="Z:\Users\708891\Desktop\APResearch\Simulations\fourWaySlip.net.xml"/>
-        <route-files value="Z:\Users\708891\Desktop\APResearch\Simulations\unifiedDistribution.rou.xml"/>
+        <net-file value="Simulations\fourWaySlip.net.xml"/>
+        <route-files value="Simulations\unifiedDistribution.rou.xml"/>
     </input>
 
     <output>
-        <tripinfo-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\fourWaySlip\fourWaySlipTripinfo3.xml"/>
-        <collision-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\fourWaySlip\fourWaySlipCollision3.xml"/>
-        <statistic-output value="Z:\Users\708891\Desktop\APResearch\Simulations\output\fourWaySlip\fourWaySlipNetworkStats3.xml"/>
+        <tripinfo-output value="Simulations\output\fourWaySlip\fourWaySlipTripinfo3.xml"/>
+        <collision-output value="Simulations\output\fourWaySlip\fourWaySlipCollision3.xml"/>
+        <statistic-output value="Simulations\output\fourWaySlip\fourWaySlipNetworkStats3.xml"/>
     </output>
 
 </configuration>
